@@ -1,0 +1,50 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* h1, form, ul, li, spans, h2 */
+
+*{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h1{
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+h1, form, ul, h2{
+  margin-left: 200px;
+}
+
+ul{
+  margin: 25px 250px;
+  margin-right: 400px;
+}
+
+h2{
+  margin-top: 50px;
+}
+
+.fa-trash{
+  margin-left: 10px;
+}
+
+.complete{
+  text-decoration: line-through;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
